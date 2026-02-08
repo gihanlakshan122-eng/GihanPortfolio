@@ -119,18 +119,15 @@ section h2 {
 .reels {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   justify-content: center;
-  gap: 25px;
 }
 
-/* 9:16 Facebook Reels */
 .fb-video {
-  width: 200px !important;
-  height: 356px !important; /* 9:16 ratio */
-  background-color: #000;
-  border-radius: 12px;
-  overflow: hidden;
+  width: 180px; /* vertical 9:16 */
+  height: 320px;
 }
+
 
 /* =========================
    CONTACT
